@@ -14,7 +14,7 @@ body{
   .middle{
     position: relative;
 
-left: 50%;
+    left: 0;
     transform: translateX(-50%);
     /*transform: translate(-50%,-50%);*/
   }
