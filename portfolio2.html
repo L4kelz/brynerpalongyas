@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Image Slider</title>
+
+<style type="text/css">
+
+    #slider {
+        overflow: hidden;
+    }
+    #slider figure {
+        position: relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        animation: 20s slider infinite;
+    }
+
+    #slider figure img {
+        width: 20%;
+        float: left;
+    }
+
+    @keyframes slider {
+        0% {
+            left: 0;
+        }
+        20% {
+            left: 0;
+        }
+        25% {
+            left: -100%;
+        }
+        45% {
+            left: -100%;
+        }
+        50% {
+            left: -200%;
+        }
+        70% {
+            left: -200%;
+        }
+        75% {
+            left: -300%;
+        }
+        95% {
+            left: -300%;
+        }
+        100% {
+            left: -300%;
+        }
+    }
+</style>
+
+
+</head>
+<body>
+
+    <div id="slider">
+
+        <figure>
+
+            <img src="assets/img/portfolio/circus.png">
+            <img src="assets/img/portfolio/cabin.png">
+            <img src="assets/img/portfolio/cake.png">
+            <img src="assets/img/portfolio/game.png">
+            <img src="assets/img/portfolio/submarine.png">
+        </figure>
+
+    </div>
+
+
+
+
+</body>
+</html>
